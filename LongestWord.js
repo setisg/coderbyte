@@ -10,4 +10,4 @@ function LongestWord(sen) {
    
 // keep this function call here 
 // to see how to enter arguments in JavaScript scroll down
-LongestWord("I love dogs");
+LongestWord(readline());

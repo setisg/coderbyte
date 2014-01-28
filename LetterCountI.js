@@ -7,7 +7,7 @@ goodWords = [];
 largest = 0;
 
 
-//gets rid words without repeating letters
+//gets rid of words without repeating letters
 for(var s = 0; s < words.length; s++){
     badWords = words[s].split('').sort().join('').search(regex);
         if(badWords !== -1){
